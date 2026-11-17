@@ -1,0 +1,409 @@
+{
+  "users": [
+    {
+      "id": "user-swetha-1",
+      "username": "swetha",
+      "email": "swetha@spendquest.io",
+      "password": "$2b$10$7lHx/ODrmKFRMyV9Dy/Plub6.cm/RaAQNfkBKdy1l7wD5BedrPcfe",
+      "first_name": "Swetha",
+      "last_name": "R.",
+      "currency": "INR",
+      "financial_health": 94,
+      "created_at": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-1794905711768",
+      "username": "testuser_1794905711704",
+      "email": "testuser_1794905711704@spendquest.io",
+      "password": "$2b$10$4zI9/UvSreXbW7zfp1gJRemE5okJLRBoOaOKXw68WzWTEkhtzHsVO",
+      "first_name": "Test",
+      "last_name": "User",
+      "currency": "INR",
+      "financial_health": 85,
+      "created_at": "2026-11-17T08:55:11.768Z"
+    },
+    {
+      "id": "user-1794905733917",
+      "username": "testuser_1794905733853",
+      "email": "testuser_1794905733853@spendquest.io",
+      "password": "$2b$10$p55tyaciUpll8.EwJ0EUFuu7iEKn4zzJX8H590mCKlBgICYv7iDU2",
+      "first_name": "Test",
+      "last_name": "User",
+      "currency": "INR",
+      "financial_health": 85,
+      "created_at": "2026-11-17T08:55:33.917Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-food",
+      "name": "Food & Dining",
+      "type": "expense",
+      "color": "#F87171",
+      "icon": "utensils",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-groceries",
+      "name": "Groceries",
+      "type": "expense",
+      "color": "#34D399",
+      "icon": "shopping-cart",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-transport",
+      "name": "Transport",
+      "type": "expense",
+      "color": "#60A5FA",
+      "icon": "car",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-bills",
+      "name": "Bills & Utilities",
+      "type": "expense",
+      "color": "#FBBF24",
+      "icon": "home",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-rent",
+      "name": "Rent",
+      "type": "expense",
+      "color": "#A78BFA",
+      "icon": "key",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-health",
+      "name": "Health",
+      "type": "expense",
+      "color": "#EC4899",
+      "icon": "heart",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-entertainment",
+      "name": "Entertainment",
+      "type": "expense",
+      "color": "#818CF8",
+      "icon": "gamepad-2",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-shopping",
+      "name": "Shopping",
+      "type": "expense",
+      "color": "#FB7185",
+      "icon": "shopping-bag",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-others-exp",
+      "name": "Others",
+      "type": "expense",
+      "color": "#94A3B8",
+      "icon": "more-horizontal",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-salary",
+      "name": "Salary",
+      "type": "income",
+      "color": "#10B981",
+      "icon": "wallet",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-freelance",
+      "name": "Freelance",
+      "type": "income",
+      "color": "#38BDF8",
+      "icon": "laptop",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-investments",
+      "name": "Investments",
+      "type": "income",
+      "color": "#8B5CF6",
+      "icon": "trending-up",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-others-inc",
+      "name": "Others",
+      "type": "income",
+      "color": "#64748B",
+      "icon": "circle-dollar-sign",
+      "is_default": true,
+      "user": null
+    },
+    {
+      "id": "cat-custom-1794905711835",
+      "user": "user-swetha-1",
+      "name": "Travel & Trek_1794905711834",
+      "type": "expense",
+      "color": "#38BDF8",
+      "icon": "plane",
+      "is_default": false,
+      "created_at": "2026-11-17T08:55:11.835Z"
+    },
+    {
+      "id": "cat-custom-1794905733981",
+      "user": "user-swetha-1",
+      "name": "Travel & Trek_1794905733981",
+      "type": "expense",
+      "color": "#38BDF8",
+      "icon": "plane",
+      "is_default": false,
+      "created_at": "2026-11-17T08:55:33.981Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-inc-1",
+      "user": "user-swetha-1",
+      "type": "income",
+      "amount": 25000,
+      "title": "Monthly Salary",
+      "description": "Primary software engineering salary",
+      "category": "cat-salary",
+      "date": "2025-03-01",
+      "payment_method": "Bank Transfer",
+      "receipt": null,
+      "created_at": "2025-03-01T09:00:00Z"
+    },
+    {
+      "id": "tx-inc-2",
+      "user": "user-swetha-1",
+      "type": "income",
+      "amount": 3000,
+      "title": "Freelance Design Consulting",
+      "description": "Fintech UI mockup delivery",
+      "category": "cat-freelance",
+      "date": "2025-03-10",
+      "payment_method": "UPI",
+      "receipt": null,
+      "created_at": "2025-03-10T14:30:00Z"
+    },
+    {
+      "id": "tx-inc-past",
+      "user": "user-swetha-1",
+      "type": "income",
+      "amount": 30000,
+      "title": "February Balance Savings",
+      "description": "Carried forward savings",
+      "category": "cat-salary",
+      "date": "2025-02-28",
+      "payment_method": "Bank Transfer",
+      "receipt": null,
+      "created_at": "2025-02-28T09:00:00Z"
+    },
+    {
+      "id": "tx-exp-1",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 450,
+      "title": "Food & Dining",
+      "description": "Sunday gourmet lunch bowl",
+      "category": "cat-food",
+      "date": "2025-03-16",
+      "payment_method": "UPI",
+      "receipt": null,
+      "created_at": "2025-03-16T12:45:00Z"
+    },
+    {
+      "id": "tx-exp-2",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 120,
+      "title": "Transport",
+      "description": "City metro commute card reload",
+      "category": "cat-transport",
+      "date": "2025-03-15",
+      "payment_method": "Credit Card",
+      "receipt": null,
+      "created_at": "2025-03-15T20:30:00Z"
+    },
+    {
+      "id": "tx-exp-3",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 80,
+      "title": "Groceries",
+      "description": "Organic greens & almond milk",
+      "category": "cat-groceries",
+      "date": "2025-03-14",
+      "payment_method": "Cash",
+      "receipt": null,
+      "created_at": "2025-03-14T17:20:00Z"
+    },
+    {
+      "id": "tx-exp-4",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 3920,
+      "title": "Weekly Organic Mart",
+      "description": "Family grocery staples & fruits",
+      "category": "cat-groceries",
+      "date": "2025-03-05",
+      "payment_method": "UPI",
+      "receipt": null,
+      "created_at": "2025-03-05T11:15:00Z"
+    },
+    {
+      "id": "tx-exp-5",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 1550,
+      "title": "Fine Dining Out",
+      "description": "Celebration dinner with team",
+      "category": "cat-food",
+      "date": "2025-03-08",
+      "payment_method": "Credit Card",
+      "receipt": null,
+      "created_at": "2025-03-08T19:30:00Z"
+    },
+    {
+      "id": "tx-exp-6",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 2980,
+      "title": "Fuel & Ride Shares",
+      "description": "Fuel refills and weekend cabs",
+      "category": "cat-transport",
+      "date": "2025-03-11",
+      "payment_method": "Debit Card",
+      "receipt": null,
+      "created_at": "2025-03-11T09:45:00Z"
+    },
+    {
+      "id": "tx-exp-7",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 4340,
+      "title": "Spring Wardrobe & Essentials",
+      "description": "Pastel cardigan and home storage",
+      "category": "cat-shopping",
+      "date": "2025-03-12",
+      "payment_method": "Credit Card",
+      "receipt": null,
+      "created_at": "2025-03-12T16:00:00Z"
+    },
+    {
+      "id": "tx-exp-8",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 1860,
+      "title": "High-speed Internet & Power",
+      "description": "Fiber internet & electricity utility bills",
+      "category": "cat-bills",
+      "date": "2025-03-06",
+      "payment_method": "Bank Transfer",
+      "receipt": null,
+      "created_at": "2025-03-06T10:00:00Z"
+    },
+    {
+      "id": "tx-exp-9",
+      "user": "user-swetha-1",
+      "type": "expense",
+      "amount": 200,
+      "title": "Artisan Espresso",
+      "description": "Morning specialty coffee",
+      "category": "cat-food",
+      "date": "2025-03-13",
+      "payment_method": "UPI",
+      "receipt": null,
+      "created_at": "2025-03-13T08:30:00Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bud-overall-1",
+      "user": "user-swetha-1",
+      "category": null,
+      "month": "2025-03",
+      "limit": 20000,
+      "created_at": "2025-03-01T00:00:00Z"
+    },
+    {
+      "id": "bud-groc-1",
+      "user": "user-swetha-1",
+      "category": "cat-groceries",
+      "month": "2025-03",
+      "limit": 5000,
+      "created_at": "2025-03-01T00:00:00Z"
+    },
+    {
+      "id": "bud-dine-1",
+      "user": "user-swetha-1",
+      "category": "cat-food",
+      "month": "2025-03",
+      "limit": 2200,
+      "created_at": "2025-03-01T00:00:00Z"
+    },
+    {
+      "id": "bud-trans-1",
+      "user": "user-swetha-1",
+      "category": "cat-transport",
+      "month": "2025-03",
+      "limit": 4000,
+      "created_at": "2025-03-01T00:00:00Z"
+    },
+    {
+      "id": "bud-shop-1",
+      "user": "user-swetha-1",
+      "category": "cat-shopping",
+      "month": "2025-03",
+      "limit": 5000,
+      "created_at": "2025-03-01T00:00:00Z"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "chal-1",
+      "user": "user-swetha-1",
+      "title": "Spring Savings Sprint",
+      "description": "Save ₹5,000 in 30 days for emergency fund",
+      "target_amount": 5000,
+      "current_amount": 3000,
+      "duration_days": 30,
+      "days_left": 12,
+      "badge": "Sparkle Saver",
+      "status": "active",
+      "created_at": "2025-03-01T00:00:00Z"
+    },
+    {
+      "id": "chal-2",
+      "user": "user-swetha-1",
+      "title": "Zero Dining-Out Weekend",
+      "description": "Cook delicious meals at home for 2 consecutive weekends",
+      "target_amount": 2500,
+      "current_amount": 2500,
+      "duration_days": 14,
+      "days_left": 0,
+      "badge": "Master Chef Saver",
+      "status": "completed",
+      "created_at": "2025-02-15T00:00:00Z"
+    }
+  ],
+  "blacklistedTokens": [
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItc3dldGhhLTEiLCJ1c2VybmFtZSI6InN3ZXRoYSIsImVtYWlsIjoic3dldGhhQHNwZW5kcXVlc3QuaW8iLCJpYXQiOjE3OTQ5MDM4MzgsImV4cCI6MTc5NTUwODYzOH0.kGf0o-xGJzMRHU342iYgD0w9Cajp6odYWpV5LChj_DA",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItc3dldGhhLTEiLCJ1c2VybmFtZSI6InN3ZXRoYSIsImVtYWlsIjoic3dldGhhQHNwZW5kcXVlc3QuaW8iLCJpYXQiOjE3OTQ5MDU3MTEsImV4cCI6MTc5NTUxMDUxMX0.lwvBcJJjLfaHaBVQCQukJzjfd4GNoeA6ZO3E2eGi8Io",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItc3dldGhhLTEiLCJ1c2VybmFtZSI6InN3ZXRoYSIsImVtYWlsIjoic3dldGhhQHNwZW5kcXVlc3QuaW8iLCJpYXQiOjE3OTQ5MDU3MzMsImV4cCI6MTc5NTUxMDUzM30.qSTgyKnIFFeKQAErmXiP-uFLROPMe_lDoNwcTYpPobk"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "spendquest",
+  "version": "1.0.0",
+  "description": "SpendQuest – Smart Personal Finance Management Platform (Track. Plan. Grow.)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "client": "cd frontend && npm start",
+    "test": "node backend/run-20-tests.js",
+    "test:inprocess": "node backend/test-inprocess.js"
+  },
+  "keywords": [
+    "fintech",
+    "expense-tracker",
+    "react",
+    "tailwind",
+    "luxury-pastel",
+    "spendquest"
+  ],
+  "author": "Google DeepMind / Senior Full-Stack Engineer",
+  "license": "MIT"
+}
